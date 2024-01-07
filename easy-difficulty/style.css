@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background: #040D12;
+}
+header{
+    display: flex;
+    background: #183D3D;
+    height: clamp(4vh, 8vh, 10vh);
+
+}
+.title h1{
+    font-size: clamp(1.5rem, 2vw, 4rem);
+    margin: 10px;
+    padding: 5px;
+    justify-content: left;
+    color: #b5dacc;
+}
+section{
+    width: clamp(200px, 100%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: clamp(30%, 30vw, 100%);
+    height: clamp(40%, 50vh, 100%);
+    background: #183D3D;
+    margin: 100px;
+    padding: 40px;
+    border-radius: 2px;
+}
+.container h1 a{
+    text-decoration: none;
+    font-size: clamp(.5em, 2em, 5em);
+    color: #b5dacc;
+}
+.container h2{
+    margin-top: 15px;
+    font-size: clamp(.5rem, 2.5rem, 4rem);
+    color: #b5dacc;
+}
+.content{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px
+}
+button{
+    height: 40px;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.display{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.display h3{
+    color: #b5dacc;
+}
+
+.feedback{
+    display: flex;
+    justify-content: space-around;
+}
+
+.feedback a{
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    color: #b5dacc;
+
+}
