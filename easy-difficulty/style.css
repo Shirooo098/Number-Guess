@@ -3,8 +3,11 @@
     font-family:'Times New Roman', Times, serif;
 }
 body{
-    background: #040D12;
+    background-image: url('../assets/bground.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
 header{
     display: flex;
     background: #183D3D;

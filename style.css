@@ -1,64 +1,78 @@
 *{
     margin: 0;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Rubik Bubbles', system-ui;
+    
 }
 body{
-    background: #040D12;
+    background-image: url('assets/bground-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
 header{
     display: flex;
     background: #183D3D;
     height: clamp(4vh, 8vh, 10vh);
 
 }
-.title h1{
-    font-size: clamp(1.5rem, 2vw, 4rem);
-    margin: 10px;
-    padding: 5px;
-    justify-content: left;
-    color: #b5dacc;
-}
+
 section{
+    height: clamp(200px, 100vh, 100vh);
     width: clamp(200px, 100%, 100%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .container{
     width: clamp(30%, 30vw, 100%);
-    height: clamp(40%, 50vh, 100%);
-    background: #183D3D;
+    height: clamp(20vh, 50vh, 100%);
+    background: rgba(210,231,214, 0.8);
+    box-shadow: 3px 4px #96ead7;
     margin: 100px;
     padding: 40px;
     border-radius: 2px;
 }
 .container h1{
-    font-size: clamp(.5em, 3em, 5em);
-    color: #b5dacc;
+    font-size: clamp(.5em, 2.5vw, 5em);
+    color: #5a5255;
+    text-align: center;
+    letter-spacing: 2px;
 }
 .container h2{
     margin-top: 15px;
-    font-size: clamp(.5rem, 2.5rem, 4rem);
-    color: #b5dacc;
+    font-size: clamp(.5rem, 2.5vw, 4rem);
+    color: #5a5255;
+    text-align: center;
+    letter-spacing: 2px;
 }
 ul{
     padding: 0;
     list-style-type: none;
 }
-ul a li{
-    font-size: clamp(.3em, 2em, 4em);
-    font-weight: 600;
-    margin: 50px 0;
-    background: #b5dacc;
-    border-radius: 5px;
-    padding: 15px;
-}
-ul li:hover{
-    background-color: #040D12;
-    color: #b5dacc;
-    transition: 0.5s ease;
-}
 ul a{
     text-decoration: none;
-    color: #183D3D;
+}
+
+ul a li{
+    color: #5a5255;
+    font-size: clamp(.3em, 2vw, 4em);
+    font-weight: 600;
+    margin: 40px 0;
+    background: #b8d8be;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+ul li:hover{
+    background-color: #5a5255;
+    color: #e8f4ea;
+    transition: 0.5s ease;
+}
+
+#muteBtn {
+    background-color: #96ead7;
+    width: 20px;
+    margin-left: 80%;
 }
