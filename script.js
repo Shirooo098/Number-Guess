@@ -1,22 +1,14 @@
-// const musicBtn = document.getElementById("muteBtn")
-// const bgm = document.getElementById("bgm");
+const bgm = document.getElementById("bgm");
+const mute = document.getElementById("muteBtn");
 
-window.addEventListener('load', () => {
-    let audioBtn = document.getElementById("btn");
-
-    // const musicBtn = document.createElement("<ion-icon></ion-icon>")
-    // musicBtn.name = 'volume-high-outline';
-    musicBtn.id = 'muteBtn';
-    audioBtn.appendChild(musicBtn)
-
-    function playAudio(){
-        if (bgm.paused){
-            bgm.play()
-        } else {
-            bgm.pause();
-        }
+function playAudio(){
+    if (bgm.paused){
+        bgm.play();
+        muteBtn.src = 'assets/audio.png';
+    } else {
+        bgm.pause();
+        muteBtn.src = 'assets/mute.png';
     }
-    
-    musicBtn.addEventListener("click", playAudio)
-    
-})
+}
+
+muteBtn.addEventListener('click', playAudio);

@@ -71,8 +71,18 @@ ul li:hover{
     transition: 0.5s ease;
 }
 
-#muteBtn {
-    background-color: #96ead7;
-    width: 20px;
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: #b8d8be;
+    width: auto;
+    padding: 4px;
     margin-left: 80%;
+    border-radius: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn img{
+    height: 3vh;
 }
