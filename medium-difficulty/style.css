@@ -48,9 +48,10 @@ section{
     grid-template-columns: repeat(5, 1fr);
     gap: 15px
 }
-button{
+.content button{
     height: 40px;
-    font-size: 2em;
+    width: 40px;
+    font-size: clamp(0.5em, 1vw, 1.5em);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
@@ -74,9 +75,4 @@ button{
     margin: 20px 0 0 0;
     text-decoration: none;
     color: #68c4af;
-}
-.content button{
-   height: 40px;
-   width: 30px;
-   font-size: clamp(0.5em, 1.5vw, 1.5em); 
 }
