@@ -75,3 +75,8 @@ button{
     text-decoration: none;
     color: #68c4af;
 }
+.content button{
+   height: 40px;
+   width: 30px;
+   font-size: clamp(0.5em, 1.5vw, 1.5em); 
+}
