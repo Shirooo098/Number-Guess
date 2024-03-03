@@ -1,9 +1,9 @@
 *{
     margin: 0;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Rubik Bubbles', system-ui;
 }
 body{
-    background-image: url('../assets/bground.webp');
+    background-image: url('../assets/bground-img.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -24,8 +24,8 @@ section{
 }
 .container{
     width: clamp(30%, 30vw, 100%);
-    height: clamp(20vh, 50vh, 100%);
-    background: rgba(242,246,195, 0.8);
+    height: clamp(20vh, 60vh, 100%);
+    background: rgba(210,231,214, 0.8);
     box-shadow: 3px 4px #96ead7;
     margin: 100px;
     padding: 40px;
@@ -43,16 +43,19 @@ section{
     color: #68c4af;
 }
 .content{
-    margin-top: 50px;
+    width: 100%;
+    height: 40%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 15px
+    gap: 15px;
 }
 button{
-    height: 40px;
-    font-size: 2em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #b8d8be;
+    color: #5a5255;
+    font-size: 1em;
+    border-radius: 5px;
     cursor: pointer;
+    border: none;
 }
 .display{
     margin: 50px;

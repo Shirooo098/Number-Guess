@@ -61,7 +61,8 @@ window.addEventListener('load', () => {
 
     const showAnswer = (answerBtn) => {
         if(currentGame === true){
-            answerBtn.style.backgroundColor = "grey"; 
+            answerBtn.style.backgroundColor = "#5a5255"; 
+            answerBtn.style.color = "#e8f4ea"; 
             
         }
     }
